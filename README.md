@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Inicializar o projero usando nvm
+
+Listar as versões
+nvm ls
+
+A versão do curso é a 14.17.5
+
+Caso não esteja instalado use o comando.
+
+nvm install 14.17.5
+
+Depois de instalado é necessario a instalação do CLI na versão 12.2.2
+
+npm install -g @angular/cli@12.2.2
+
+Tendo a versão instalada so rodar o comando.
+
+nvm use 14.17.5
