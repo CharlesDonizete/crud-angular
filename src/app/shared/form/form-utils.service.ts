@@ -55,11 +55,11 @@ export class FormUtilsService {
 
   getFormArryFielErrorMessage(
     formGroup: UntypedFormGroup,
-    formArryName: string,
+    formArrayName: string,
     fieldName: string,
     index: number
   ) {
-    const formArray = formGroup.get(formArryName) as UntypedFormArray;
+    const formArray = formGroup.get(formArrayName) as UntypedFormArray;
     const field = formArray.controls[index].get(
       fieldName
     ) as UntypedFormControl;
