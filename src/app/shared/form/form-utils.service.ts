@@ -53,7 +53,7 @@ export class FormUtilsService {
     return 'Campo inválido';
   }
 
-  getFormArryFielErrorMessage(
+  getFormArrayFieldErrorMessage(
     formGroup: UntypedFormGroup,
     formArrayName: string,
     fieldName: string,
