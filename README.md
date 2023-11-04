@@ -31,16 +31,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Listar as versões
 nvm ls
 
-A versão do curso é a 14.17.5
+A versão do curso é a 16.16.5
 
 Caso não esteja instalado use o comando.
 
-nvm install 14.17.5
+nvm install 16.16.0
 
-Depois de instalado é necessario a instalação do CLI na versão 12.2.2
+Depois de instalado é necessario a instalação do CLI na versão 14.1.0
 
-npm install -g @angular/cli@12.2.2
+npm install -g @angular/cli@14.1.0
 
 Tendo a versão instalada so rodar o comando.
 
-nvm use 14.17.5
+nvm use 16.16.0
