@@ -1,5 +1,9 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+import {
+  ActivatedRouteSnapshot,
+  Resolve,
+  RouterStateSnapshot,
+} from '@angular/router';
 import { Observable, of } from 'rxjs';
 
 import { Course } from '../model/course';
@@ -8,7 +12,7 @@ import { CoursesService } from '../services/courses.service';
 @Injectable({
   providedIn: 'root',
 })
-export class CourseResolver  {
+export class CourseResolver implements Resolve<Course> {
   constructor(private service: CoursesService) {}
   resolve(
     route: ActivatedRouteSnapshot,
